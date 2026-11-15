@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# 模型权重 / 训练输出（体积大，不纳入版本管理）
+src/models/
+src/output/
+*.safetensors
+*.ckpt
+
+# 测试生成图
+sd15_test.png
